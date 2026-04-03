@@ -44,7 +44,7 @@ async function computerInformation(req,res){
         res.status(500);
     }
 }
-app.get('/hardware',computerInformation);
+app.get('/',computerInformation);
 
 
 app.listen(port, () => {
